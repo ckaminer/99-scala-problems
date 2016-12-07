@@ -1,11 +1,14 @@
 [0m[[0minfo[0m] [0m[32mProblemTest:[0m[0m
 [0m[[0minfo[0m] [0m[32m- recursively find the last element of a list[0m[0m
-[0m[[0minfo[0m] [0m[31m- recursively find the last but one element of a list *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[32m- recursively find the last but one element of a list[0m[0m
+[0m[[0minfo[0m] [0m[32m- recursively find the kth element of a list[0m[0m
+[0m[[0minfo[0m] [0m[32m- recursively find the kth element of a list of length 1[0m[0m
+[0m[[0minfo[0m] [0m[31m- kth element not on list *** FAILED ***[0m[0m
 [0m[[0minfo[0m] [0m[31m  java.util.NoSuchElementException:[0m[0m
-[0m[[0minfo[0m] [0m[31m  at Problem$.secondToLastWithRecursion(problems.scala:11)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$2.apply$mcV$sp(problems_test.scala:9)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$2.apply(problems_test.scala:9)[0m[0m
-[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$2.apply(problems_test.scala:9)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at Problem$.kthElementWithRecursion(problems.scala:17)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$5.apply$mcV$sp(problems_test.scala:21)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$5.apply(problems_test.scala:21)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at ProblemTest$$anonfun$5.apply(problems_test.scala:21)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer$$anonfun$apply$1.apply$mcV$sp(Transformer.scala:22)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
 [0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m

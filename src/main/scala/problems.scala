@@ -10,4 +10,10 @@ object Problem {
     case _ :: tail     => secondToLastWithRecursion(tail)
     case Nil           => throw new NoSuchElementException
   }
+
+  def kthElementWithRecursion[A](k: Int, ls: List[A]): A = (k, ls) match {
+    case (0, h :: tail) => h
+    case (k, h :: tail) => kthElementWithRecursion(k - 1, tail)
+    case (k, Nil)       => throw new NoSuchElementException
+  }
 }
