@@ -4,7 +4,7 @@
 		module="99-scala-problems$sbt_2.10"
 		revision="1.0"
 		status="integration"
-		publication="20161202132720"
+		publication="20170602095714"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

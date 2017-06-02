@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/charleskaminer/code_playground/99-scala-problems/project/}root-99-scala-problems-build...
+[info] Updating {file:/Users/localadmin/workspace/99-scala-problems/project/}root-99-scala-problems-build...
 [debug] :: resolving dependencies :: default#root-99-scala-problems-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -6074,19 +6074,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2345ms :: artifacts dl 63ms
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT compile produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-compile.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT runtime produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-runtime.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT test produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-test.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT provided produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-provided.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT optional produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-optional.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT compile-internal produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-compile-internal.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT runtime-internal produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-runtime-internal.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT test-internal produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-test-internal.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT plugin produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-plugin.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT sources produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-sources.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT docs produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-docs.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT pom produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-pom.xml
-[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT scala-tool produced in /Users/charleskaminer/code_playground/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-scala-tool.xml
-[debug] 	resolve done (2345ms resolve - 63ms download)
+[debug] :: resolution report :: resolve 1114ms :: artifacts dl 13ms
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT compile produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-compile.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT runtime produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-runtime.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT test produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-test.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT provided produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-provided.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT optional produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-optional.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT compile-internal produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-compile-internal.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT runtime-internal produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-runtime-internal.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT test-internal produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-test-internal.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT plugin produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-plugin.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT sources produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-sources.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT docs produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-docs.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT pom produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-pom.xml
+[debug] 	report for default#root-99-scala-problems-build;0.1-SNAPSHOT scala-tool produced in /Users/localadmin/workspace/99-scala-problems/project/target/resolution-cache/reports/default-root-99-scala-problems-build-scala-tool.xml
+[debug] 	resolve done (1114ms resolve - 13ms download)
 [info] Done updating.

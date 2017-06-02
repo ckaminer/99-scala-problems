@@ -22,4 +22,10 @@ object ListProblems {
     case _ :: tail   => listLength(tail) + 1
     case Nil         => throw new NoSuchElementException
   }
+
+  def listReverse[A](ls: List[A]) : List[A] = ls match {
+    case last :: Nil => List(last)
+    case first :: tail => listReverse(tail) :+ first
+    case Nil => throw new NoSuchElementException
+  }
 }

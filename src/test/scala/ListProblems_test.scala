@@ -21,4 +21,16 @@ class ListProblemsTest extends FunSuite with Matchers {
     ListProblems.listLength(List("a", "b", "c", "d", "e")) should be (5)
   }
 
+  test("reverse a list") {
+    ListProblems.listReverse(List("a", "b", "c", "d", "e")) should be (List("e", "d", "c" ,"b", "a"))
+  }
+
+  test("list is a palindrome") {
+    ListProblems.isPalindrome(List("a", "b", "c", "b", "a")) should be (true)
+  }
+
+  test("list is not a palindrome") {
+    ListProblems.isPalindrome(List("a", "b", "c", "d", "e")) should be (false)
+  }
+
 }

@@ -4,7 +4,7 @@
 		module="root-99-scala-problems-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161202132710"
+		publication="20170602095637"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
