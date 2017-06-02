@@ -1,5 +1,5 @@
 object ListProblems {
-  def lastWithRecursion[A](ls: List[A]) : A = ls match {
+  def lastWithRecursion[A](ls: List[A]): A = ls match {
     case last :: Nil => last
     case _ :: tail   => lastWithRecursion(tail)
     case Nil         => throw new NoSuchElementException
@@ -17,15 +17,19 @@ object ListProblems {
     case (k, Nil)       => throw new NoSuchElementException
   }
 
-  def listLength[A](ls: List[A]) : Int = ls match {
+  def listLength[A](ls: List[A]): Int = ls match {
     case last :: Nil => 1
     case _ :: tail   => listLength(tail) + 1
     case Nil         => throw new NoSuchElementException
   }
 
-  def listReverse[A](ls: List[A]) : List[A] = ls match {
-    case last :: Nil => List(last)
+  def listReverse[A](ls: List[A]): List[A] = ls match {
+    case last :: Nil   => List(last)
     case first :: tail => listReverse(tail) :+ first
-    case Nil => throw new NoSuchElementException
+    case Nil           => throw new NoSuchElementException
+  }
+
+  def isPalindrome[A](ls: List[A]): Boolean = {
+    ls == listReverse (ls)
   }
 }

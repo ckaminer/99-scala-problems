@@ -32,5 +32,4 @@ class ListProblemsTest extends FunSuite with Matchers {
   test("list is not a palindrome") {
     ListProblems.isPalindrome(List("a", "b", "c", "d", "e")) should be (false)
   }
-
 }
