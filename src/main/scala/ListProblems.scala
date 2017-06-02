@@ -1,4 +1,4 @@
-object Problem {
+object ListProblems {
   def lastWithRecursion[A](ls: List[A]) : A = ls match {
     case last :: Nil => last
     case _ :: tail   => lastWithRecursion(tail)
@@ -15,5 +15,11 @@ object Problem {
     case (0, h :: tail) => h
     case (k, h :: tail) => kthElementWithRecursion(k - 1, tail)
     case (k, Nil)       => throw new NoSuchElementException
+  }
+
+  def listLength[A](ls: List[A]) : Int = ls match {
+    case last :: Nil => 1
+    case _ :: tail   => listLength(tail) + 1
+    case Nil         => throw new NoSuchElementException
   }
 }
